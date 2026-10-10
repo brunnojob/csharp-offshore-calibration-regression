@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "repository": "brunnojob/csharp-offshore-calibration-regression",
-  "source_commit": "fe55f87d16aeff6b7bbcaf67cbdb53b11d97d4f9",
-  "generated_at": "2026-10-10T02:36:59.037792+00:00",
-  "run_url": "https://github.com/brunnojob/csharp-offshore-calibration-regression/actions/runs/38017605617",
+  "source_commit": "2b948e2ce7cf17a15bdff6d65b47adaf865a82b8",
+  "generated_at": "2026-10-10T02:45:14.077715+00:00",
+  "run_url": "https://github.com/brunnojob/csharp-offshore-calibration-regression/actions/runs/38018101561",
   "inputs_sha256": {
     ".proof/scenarios.json": "1959f1f6ffb9055fbc18afba1dd7389c9e97ef1bf7371999472a5131f0c2dbb5",
     "examples/input.txt": "17446a84552b93fa0d1e3b2ec056a3037ee89f3a653ac8d4a5fee6c6fcfd2d99"
@@ -23,9 +23,9 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 12.576,
-      "output": "  Determining projects to restore...\n  Restored /home/runner/work/csharp-offshore-calibration-regression/csharp-offshore-calibration-regression/Offshore.csproj (in 83 ms).\n  Offshore -> /home/runner/work/csharp-offshore-calibration-regression/csharp-offshore-calibration-regression/bin/Debug/net8.0/Offshore.dll\n\nBuild succeeded.\n    0 Warning(s)\n    0 Error(s)\n\nTime Elapsed 00:00:06.65\nTests passed\n{\"Slope\":1.00532,\"Intercept\":0.11999999999999744,\"Rms\":0.002449489742781821,\"SlopeSigma\":0.000632455532033676,\"MaxResidual\":0.0040000000000048885}\nreference=0.0000,corrected=0.0000\nreference=25.0000,corrected=24.9970\nreference=50.0000,corrected=50.0040\nreference=75.0000,corrected=75.0010\nreference=100.0000,corrected=99.9980\n",
-      "output_sha256": "aacaa733227e9c5887a9d71a97a4a9d3f14fc57fe62edbdec7cc9c0d5daaee84"
+      "seconds": 10.379,
+      "output": "  Determining projects to restore...\n  Restored /home/runner/work/csharp-offshore-calibration-regression/csharp-offshore-calibration-regression/Offshore.csproj (in 53 ms).\n  Offshore -> /home/runner/work/csharp-offshore-calibration-regression/csharp-offshore-calibration-regression/bin/Debug/net8.0/Offshore.dll\n\nBuild succeeded.\n    0 Warning(s)\n    0 Error(s)\n\nTime Elapsed 00:00:05.30\nTests passed\n{\"Slope\":1.00532,\"Intercept\":0.11999999999999744,\"Rms\":0.002449489742781821,\"SlopeSigma\":0.000632455532033676,\"MaxResidual\":0.0040000000000048885}\nreference=0.0000,corrected=0.0000\nreference=25.0000,corrected=24.9970\nreference=50.0000,corrected=50.0040\nreference=75.0000,corrected=75.0010\nreference=100.0000,corrected=99.9980\n",
+      "output_sha256": "4b98268ddb2653663987b4b363d26aca442a2e5fd0b3a1831934adda18de71e2"
     },
     {
       "display": true,
@@ -39,7 +39,7 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 0.803,
+      "seconds": 0.502,
       "output": "{\"Slope\":1.00532,\"Intercept\":0.11999999999999744,\"Rms\":0.002449489742781821,\"SlopeSigma\":0.000632455532033676,\"MaxResidual\":0.0040000000000048885}\nreference=0.0000,corrected=0.0000\nreference=25.0000,corrected=24.9970\nreference=50.0000,corrected=50.0040\nreference=75.0000,corrected=75.0010\nreference=100.0000,corrected=99.9980\n",
       "output_sha256": "630ca9c8ac650f84a77426f2a1553e59e95a2e28eaf9f2e4cf405a1cea6b27c7"
     },
@@ -55,7 +55,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.752,
+      "seconds": 0.502,
       "output": "Missing input\n",
       "output_sha256": "59dde097c155045b6510b44b5d0ee86176974b3476c8b96718ac676f66134e97"
     },
@@ -71,7 +71,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.752,
+      "seconds": 0.502,
       "output": "Invalid CSV row\n",
       "output_sha256": "64aaf8a3f81772044320e6481a9fe33ac80bfdb41f6deb590512cd62c2cd30b7"
     },
@@ -88,7 +88,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.752,
+      "seconds": 0.503,
       "output": "Unsupported command arguments\n",
       "output_sha256": "a7217611e9bf4e2fd5cbbd1b8b97c5898f154b14da948e9e35008b59b8158bcd"
     },
@@ -104,7 +104,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.752,
+      "seconds": 0.502,
       "output": "Input record too large\n",
       "output_sha256": "45eb187fdae97f09b79c4bcd5c03d9b942872125e5fb5b6a83011b36f8d62333"
     }
