@@ -1,0 +1,1 @@
+CSV: reference,measured,measurement-standard-deviation. Fits measured=slope*reference+intercept. Reference uncertainty is assumed negligible; slope uncertainty uses supplied absolute measurement uncertainties.
