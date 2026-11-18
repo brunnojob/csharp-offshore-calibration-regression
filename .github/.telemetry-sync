@@ -1,4 +1,4 @@
 date=2026-11-18
-seq=38
-ts=1794969512
-scope=sensor-drift
+seq=39
+ts=1794969516
+scope=solver
