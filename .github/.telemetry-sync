@@ -1,4 +1,4 @@
 date=2026-11-18
-seq=66
-ts=1794969889
-scope=least-squares
+seq=67
+ts=1794969942
+scope=sensor-drift
