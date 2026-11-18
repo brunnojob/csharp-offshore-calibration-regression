@@ -1,4 +1,4 @@
 date=2026-11-18
-seq=50
-ts=1794969674
-scope=iso-cert
+seq=51
+ts=1794969675
+scope=sensor-drift
